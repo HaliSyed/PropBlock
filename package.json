@@ -1,0 +1,29 @@
+{
+  "name": "propblock",
+  "version": "1.0.0",
+  "description": "A Tokenized 3D Art marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaliSyed/PropBlock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaliSyed/PropBlock/issues"
+  },
+  "homepage": "https://github.com/HaliSyed/PropBlock#readme",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.14",
+    "request": "^2.88.2"
+  }
+}
